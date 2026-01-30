@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <title>Perkunas LLC</title>
+      <!-- ICON / FAVICON -->
+      <link rel="icon" href="icon.ico">
+   </head>
+   <body>
+      <header class="main_header">
+         <div class="container">
+            <div class="nav_main">
+               <div class="nav_logo">
+                  <a href="index.html">
+                     <h4>Perkunas LLC</h4>
+                  </a>
+               </div>
+               <div class="nav_menu">
+                  <button class="toggle_btn_menu"><img src="images/menu-toggle.svg"></button>
+                  <ul class="menu_ul">
+                     <li><a href="#about">About Us</a></li>
+                     <li><a href="#company">Company</a></li>
+                     <li><a href="#product">Product</a></li>
+                     <li><a href="#customers">Customers</a></li>
+                     <li><a href="#services">Product/Service Offering</a></li>
+                     <li><a href="#director">Director</a></li>
+                     <li><a href="#contact">Contact Us</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- HERO -->
+      <section class="banner_main">
+         <div class="container">
+            <div class="banner_inner_main">
+               <div class="hero_logo_wrap">
+                  <!-- Replace this file with your NEW lightning logo if needed -->
+                  <img src="images/banner_img.png" alt="Perkunas LLC Logo">
+               </div>
+               <div class="hero_text">
+                  <h1>Perkunas LLC</h1>
+                  <p>
+                     Perkunas is a fintech company that develops software solutions for high-frequency trading (HFT) firms,
+                     specializing in the crypto market. Our flagship product, vcrypto, significantly improves trading latency,
+                     enabling firms to maximize their trading profits by reducing tick-to-trade latency.
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="wave wave-bottom hero_wave" aria-hidden="true">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+               <path d="M0,64 C240,120 480,120 720,80 C960,40 1200,40 1440,64 L1440,120 L0,120 Z"></path>
+            </svg>
+         </div>
+      </section>
+      <!-- ABOUT -->
+      <section class="company_sec section" id="about">
+         <div class="container">
+            <h2 class="section_title">About Us</h2>
+            <div class="about_block">
+               <h4>From the beginning, we treat our clients with hard work and attention to detail and performance. </h4>
+               <p>
+                  Perkunas LLC was created in October 2025 with the mission of creating innovative Fintech solutions with no tradeoffs to quality or robustness. We believe that excellence is paramount and although quick-to-market business strategies may win during bull times, we will eventually benefit from flight to quality.
+               </p>
+               <p>
+                  Trading technology is an area that can be classified as mission critical since any failure can and likely will lead to large financial losses. We treat any application we write as an avionics package, where our clients are our passengers.
+               </p>
+               <h4>Some of the distinctive differences between us and the Fintech competition are:</h4>
+               <p>Our flagship product, vcrypto, offers sub-microsecond tick-to-trade latencies compared to the 10-30 microsecond overhead compared to the standard network library stack (LibWebSockets/OpenSSL/Kernel TCP/IP).</p>
+               <p>
+                  Although we used Agile in the past, today we found that a mix of Feature-driven development combined with Classic Waterfall produces the best results in a mission critical environmen
+               </p>
+               <p>
+                  We use strict development standards inpired on NASA's JPL Power of Ten and more strictly on industry standards as MISRA and AutoSAR.
+               </p>
+            </div>
+         </div>
+      </section>
+      <div class="wave wave-bottom" aria-hidden="true">
+         <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+            <path fill="#e6e6e6" d="M0,64 C240,120 480,120 720,80 C960,40 1200,40 1440,64 L1440,120 L0,120 Z"></path>
+         </svg>
+      </div>
+      <section class="company_desc_sec section" id="company">
+         <div class="company_desc_bg">
+            <div class="container">
+               <h2 class="section_title">Company Description</h2>
+               <div class="company_inner_main">
+                  <div class="company_inner_text">
+                     <h4>Mission Statement</h4>
+                  </div>
+                  <div class="company_inner_text">
+                     <p>Our mission is to provide the fastest crypto market data feed and order-entry system in the industry, akin to the role SolarFlare’s OpenOnload plays in traditional financial markets.</p>
+                  </div>
+                  <div class="company_inner_text">
+                     <h4>Principal Members</h4>
+                  </div>
+                  <div class="company_inner_text">
+                     <p>Fabio Fernandes – owner and developer.</p>
+                  </div>
+                  <div class="company_inner_text">
+                     <h4>Legal Structure &amp; Regulations</h4>
+                  </div>
+                  <div class="company_inner_text">
+                     <p>Perkunas is a sole proprietorship. <br><br>As a software vendor, Perkunas does not engage in electronic trading itself and is therefore not subject to trading or financing regulations.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="wave wave-bottom" aria-hidden="true" style="background-color: #e5e5e5;">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+               <path fill="white" d="M0,64 C240,120 480,120 720,80 C960,40 1200,40 1440,64 L1440,120 L0,120 Z"></path>
+            </svg>
+         </div>
+      </section>
+      <section class="product_sec  section" id="product">
+         <div class="container">
+            <div class="product_main">
+               <h2 class="section_title">Product</h2>
+               <p>Our product, vcrypto, is a set of high-performance C++ libraries that can be seamlessly integrated into  customers' existing trading platforms to enhance latency and improve profitability. These libraries utilise custom DPDK drivers and a specialized TLS/TCP network stack to significantly outperform existing network components used for market data and order execution. <br><br>Currently, vcrypto supports market data and is in the process of incorporating an order-entry component. </p>
+            </div>
+         </div>
+      </section>
+      <div class="wave wave-bottom" aria-hidden="true">
+         <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+            <path fill="#e6e6e6" d="M0,64 C240,120 480,120 720,80 C960,40 1200,40 1440,64 L1440,120 L0,120 Z"></path>
+         </svg>
+      </div>
+      <!-- CUSTOMERS -->
+      <section class="customers_sec" id="customers">
+         <div class="customers_inner_bg">
+            <div class="container">
+               <div class="customers_layout">
+                  <p>
+                     Perkunas targets proprietary trading firms and hedge funds engaged in algorithmic HFT on cryptocurrency exchanges that operate on Amazon Web Services (AWS), such as Binance, Coinbase, Bybit, Huobi, and Kucoin.  These firms employ software developers to build automated trading strategies that capitalize on price movements by sending electronic orders to the exchange.  The speed at which these algorithms process data and execute trades—known as "tick-to-trade latency"—is crucial, often occurring in the low single-digit microseconds.  This rapid execution is far beyond human capabilities, necessitating sophisticated algorithms for profitable trading.
+                  </p>
+                  <h2>Customers</h2>
+               </div>
+            </div>
+         </div>
+         <div class="wave wave-bottom" aria-hidden="true" style="background-color: #e5e5e5;">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+               <path fill="white" d="M0,64 C240,120 480,120 720,80 C960,40 1200,40 1440,64 L1440,120 L0,120 Z"></path>
+            </svg>
+         </div>
+      </section>
+      <!-- SERVICES -->
+      <section class="services_sec" id="services">
+         <div class="services_inner_bg">
+            <div class="container">
+               <h2 class="section_title">Product/Service Offering</h2>
+               <p class="section_sub">Perkunas offers several services to help clients enhance their trading platforms:</p>
+               <div class="services_grid">
+                  <div class="service_card">
+                     <img src="images/vcrypto-licensing.webp" alt="Vcrypto Licensing">
+                     <div class="card_body">
+                        <h4>Vcrypto Licensing</h4>
+                        <p style="text-align:center;white-space:pre-wrap;" class="">We offer monthly licenses for vcrypto, allowing customers to integrate it into their existing systems. Documentation and technical support are provided.</p>
+                        <h6>$10,000 per month
+                           </br>
+                           </br>
+                           per exchange (currently Binance only)
+                        </h6>
+                     </div>
+                  </div>
+                  <div class="service_card">
+                     <img src="images/development-consulting.webp" alt="Software Development Consultancy">
+                     <div class="card_body">
+                        <h4>Software Development Consultancy</h4>
+                        <p class="mb-15">Perkunas provides hourly consultancy to assist customers with integrating vcrypto into their trading platforms.</p>
+                        <h6>$2,000 per day</h6>
+                     </div>
+                  </div>
+                  <div class="service_card">
+                     <img src="images/market-data-feed.webp" alt="Market Data Feed">
+                     <div class="card_body">
+                        <h4>Market Data Feed</h4>
+                        <p>Perkunas offers a high-performance market data feed at an hourly rate, delivering fast crypto price information to clients' systems. Order-entry services are not included, as these would require adherence to various regulatory requirements.</p>
+                        <h6>$12.00 - $20.00 per hour</h6>
+                     </div>
+                  </div>
+                  <div class="service_card">
+                     <img src="images/c-development.webp" alt="C++ Development">
+                     <div class="card_body">
+                        <h4>C++ Development</h4>
+                        <p style="text-align:center;white-space:pre-wrap;" class="">With over 15 years of experience in <span class="sqsrte-text-color--custom" style="color: rgb(187, 142, 40)">high frequency trading</span>, <span class="sqsrte-text-color--custom" style="color: #BB8E28">high performance computing</span> in C++ and <span class="sqsrte-text-color--custom" style="color: #BB8E28">Modern C++</span>, our team is prepared to build ultra low latency software in any standards of your choice (C++11, C++14, C++17, C++20) that will challenge the best firms in the market.</p>
+                        <h6>starting at $200 per hour</h6>
+                     </div>
+                  </div>
+                  <div class="service_card">
+                     <img src="images/hiring-assistance.webp" alt="Hiring Assistance">
+                     <div class="card_body">
+                        <h4>Hiring Assistance</h4>
+                        <p>We can help shortlist, evaluate and prepare C++, architecture, networking and Linux tests for candidates.</p>
+                        <h6>starting at $200 per hour</h6>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="dt-text">
+               <p class="" style="white-space:pre-wrap;"><b>To learn how we can help, you can <span class="sqsrte-text-color--custom" style="color: #BB8E28"><a href="#contact">contact us</a></span> or book an initial talk on <span class="sqsrte-text-color--custom" style="color: #BB8E28"><a href="https://calendly.com/fabio-hft-proton/" target="_blank">calendly</a></span>.</b></p>
+            </div>
+         </div>
+      </section>
+      <div class="wave wave-bottom" aria-hidden="true">
+         <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+            <path fill="#dcdcdc" d="M0,64 C240,120 480,120 720,80 C960,40 1200,40 1440,64 L1440,120 L0,120 Z"></path>
+         </svg>
+      </div>
+      <!-- CONTACT -->
+      <section class="contact_sec" id="contact">
+         <div class="contact_bg">
+            <div class="container">
+               <h2 class="contact_title">Contact Us</h2>
+               <div class="contact_wrap">
+                  <div class="contact_form">
+                     <form
+                        action="mailto:fabio.hft@proton.me"
+                        method="post"
+                        enctype="text/plain"
+                        class="row g-3"
+                        >
+                        <div class="form_grid">
+                           <div class="form_row">
+                              <label for="c_first">First Name</label>
+                              <input id="c_first" name="First Name" type="text" required>
+                           </div>
+                           <div class="form_row">
+                              <label for="c_last">Last Name</label>
+                              <input id="c_last" name="Last Name" type="text" required>
+                           </div>
+                           <div class="form_row full">
+                              <label for="c_email">Email (Required)</label>
+                              <input id="c_email" name="Email" type="email" required>
+                           </div>
+                           <div class="form_row full">
+                              <label for="c_phone">Phone</label>
+                              <input id="c_phone" name="Phone" type="tel">
+                           </div>
+                           <div class="form_row full">
+                              <label for="c_msg">Project Details (Required)</label>
+                              <textarea id="c_msg" name="Message" required></textarea>
+                           </div>
+                        </div>
+                        <button class="btn_submit" type="submit">Submit</button>
+                     </form>
+                  </div>
+                  <div class="contact_side">
+                     <div class="box">
+                        <h4>Office Address</h4>
+                        <p>30 N Gould Street Ste N, Sheridan, New Mexico 82801</p>
+                        <div style="height:10px;"></div>
+                        <div class="map_wrap">
+                           <iframe
+                              src="https://www.google.com/maps?q=30%20N%20Gould%20St%20Ste%20N%2C%20Sheridan%2C%20WY%2082801&output=embed"
+                              width="100%"
+                              height="400"
+                              style="border:0;"
+                              loading="lazy"
+                              referrerpolicy="no-referrer-when-downgrade">
+                           </iframe>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="wave wave-bottom" aria-hidden="true" style="background-color: #dcdcdc;">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+               <path fill="white" d="M0,64 C240,120 480,120 720,80 C960,40 1200,40 1440,64 L1440,120 L0,120 Z"></path>
+            </svg>
+         </div>
+      </section>
+      <!-- DIRECTOR -->
+      <section class="director_sec" id="director">
+         <div class="container">
+            <div class="director_main">
+               <div class="director_img">
+                  <img src="images/fabio.jpg" alt="Director">
+               </div>
+               <div class="director_cont">
+                  <h2 class="director_title">Director</h2>
+                  <p>
+                     Fabio Fernandes, a developer with exceptional creativity who can think outside the box, especially when dealing with trading connectivity. Has optimised and designed nanosecond T1 trading engines since 2013.  Passionate about developing high-performance systems from the age of 14.  Expert debugging skills and can reverse engineer and patch binaries without source code.
+                  </p>
+                  <p><strong>Past customers:</strong> Tower Research Capital, Credit Agricole, Liquid Capital Group, Chopper Trading, Royal Bank of Scotland</p>
+                  <p><strong>Education:</strong> 2012 M.Sc. Computer Science, University of Copenhagen</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer class="main_footer">
+         <div class="container">
+            <div class="footer_main">
+               <div class="footer_left">
+                  <h3>Perkunas LLC</h3>
+                  <ul>
+                     <li><strong>Phone:</strong> <a href="tel:+5547992830395" style="text-decoration: underline;">+5547992830395</a></li>
+                     <li><a href="mailto:fabio.hft@proton.me">fabio.hft@proton.me</a></li>
+                     <li><a href="https://www.linkedin.com/in/fabfer/" target="_blank" rel="noopener">Linkedin</a></li>
+                  </ul>
+                  <div class="footer_links_inline">
+                     <a href="#">Privacy Policy</a>
+                     <a href="#">Terms of Use</a>
+                  </div>
+               </div>
+               <div class="footer_col">
+                  <h4>Office Address</h4>
+                  <p>Perkunas LLC</p>
+                  <p>30 N Gould Street Ste N, Sheridan, New Mexico 82801</p>
+               </div>
+               <div class="footer_col">
+                  <h4>Mailing Address</h4>
+                  <p>Perkunas LLC</p>
+                  <p>400 Rella Blvd. Ste., #207-298 Montebello, New York 10901</p>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <script>
+         document.addEventListener("DOMContentLoaded", function () {
+           const toggleBtn = document.querySelector(".toggle_btn_menu");
+           const menu = document.querySelector(".menu_ul");
+         
+           if (toggleBtn && menu) {
+             toggleBtn.addEventListener("click", function (e) {
+               e.stopPropagation();
+               menu.classList.toggle("active");
+             });
+         
+             menu.addEventListener("click", function () {
+               menu.classList.remove("active");
+             });
+         
+             document.body.addEventListener("click", function () {
+               menu.classList.remove("active");
+             });
+           }
+         
+         
+           const form = document.getElementById('contactForm');
+           const btn  = document.getElementById('contactBtn');
+         
+           if(form){
+             form.addEventListener('submit', async (e) => {
+               e.preventDefault();
+         
+               btn.disabled = true;
+               const oldText = btn.innerHTML;
+               btn.innerHTML = 'Sending...';
+         
+               try{
+                 const fd = new FormData(form);
+         
+                 const res = await fetch(form.action, {
+                   method: 'POST',
+                   body: fd
+                 });
+         
+                 const data = await res.json();
+         
+                 if(data.ok){
+                   alert(data.message || 'Sent successfully.');
+                   form.reset();
+                 }else{
+                   alert(data.message || 'Something went wrong.');
+                 }
+               }catch(err){
+                 alert('Network error. Please try again.');
+               }finally{
+                 btn.disabled = false;
+                 btn.innerHTML = oldText;
+               }
+             });
+           }
+         
+         });
+      </script>
+   </body>
+</html>
